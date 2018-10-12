@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="js/HTML博客园.js" ></script>
+		<section id="register">
+	<div><img src="img/logo1.jpg" alt="logo" /><img src="img/banner.jpg" alt="banner" /></div>
+	<h1 class="hr_1">新用户注册</h1>
+	<form action="" method="post" name="myform">
+		<dl>
+			<dt>用户名：</dt>
+			<dd><input id="user" type="text" placeholder="以英文字母开头4～16个英文字母或数字" required pattern="[a-zA-Z][a-zA-Z0-9]{3,15}"/></dd>
+		</dl>
+		<dl>
+			<dt>密码：</dt>
+			<dd><input id="pwd" type="password" placeholder="4～10个英文字母或数字"  required  pattern="[a-zA-Z0-9]{4,10}"/></dd>
+		</dl>
+		<dl>
+			<dt>确认密码：</dt>
+			<dd><input id="repwd" type="password"/></dd>
+		</dl>
+		<dl>
+			<dt>电子邮箱：</dt>
+			<dd><input id="email" type="email"/></dd>
+		</dl>
+		<dl>
+			<dt>手机号码：</dt>
+			<dd><input id="mobile" type="text" pattern="1\d{10}" /></dd>
+		</dl>
+		<dl>
+			<dt>生日：</dt>
+			<dd><input id="birth" type="text" pattern="((19\d{2})|(200\d)|(201[0-6]))-(0?[1-9]|1[0-2])-(0?[1-9]|[1-2]\d|3[0-1])"/></dd>
+		</dl>
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd><input name="" type="image" src="img/register.jpg" class="btn" /></dd>
+		</dl>
+  </form>
+</section>
+
+		
+	</body>
+</html>
